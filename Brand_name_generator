@@ -1,0 +1,4 @@
+#Here is a code which is used to generate a name based on city_name and the pet_name that you have given 
+city_name=input("enter the name of the city that you grew up\n")
+pet_store_name=input("enter the name of the pet store that you have\n")
+print("you combined name is" + "" +city_name + pet_store_name)
