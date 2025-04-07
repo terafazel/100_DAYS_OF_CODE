@@ -1,0 +1,29 @@
+print("Welcome to Deepracer a ride for all ages")
+Height = int(input("Please enter your height in cm: "))
+
+if Height >= 120:
+    print("You are allowed to enter the ride.")
+    Age = int(input("Enter your age: "))
+    
+    # Set default ticket price first
+    Ticketprice = 0
+
+    if Age > 18:
+        print("Your costing is $12")
+        Ticketprice = 12
+    elif Age > 12:
+        print("Your costing is $7")
+        Ticketprice = 7
+    else:
+        print("The costing is $5")
+        Ticketprice = 5
+
+    Photos = input("Do you want to take a photo? (yes/no): ").lower()
+
+    if Photos == "yes":
+        print(f"You will be charged an additional $3. Your total cost is ${Ticketprice + 3}")
+    else:
+        print(f"Your total cost is: ${Ticketprice}")
+
+else:
+    print("Apologies, but you are not eligible to enter the ride.")
