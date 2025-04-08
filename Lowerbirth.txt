@@ -1,0 +1,5 @@
+to check if a givne person is eligible for lower birht or not 
+the crtierai is that the person shoudl be either old or pregnant 
+here the old age is considered on the fact that the age is more than 60 
+once we have the fact that the person is beyond is 60 then the perso can be considered as a old person 
+but aagain the perferecne is to be based on the who is muhc older of the gae is grater than 70 then then we nee
